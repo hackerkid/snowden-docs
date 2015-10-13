@@ -1,7 +1,6 @@
 # snowden (HTTP Proxy Serever) Docs
 
-This repo contains the docs for the HTTP proxy server which I made for the networking course. The source code would be made public once the evaluation is 
-over at github.com/hackerkid/snowdn
+This repo contains the docs for the HTTP proxy server which I (Vishnu Ks, IIT2013075) made for the networking course. The source code would be made public once the evaluation is over at github.com/hackerkid/snowden
 
 ##Installing
 
@@ -32,7 +31,4 @@ your proxy program is running.
 * Save your changes by selecting `OK` in the connection tab and then select `Close`
 in the preferences tab.
 
-##Created By
-Vishnu Ks
-IIT2013075
 
