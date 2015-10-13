@@ -5,9 +5,11 @@ This repo contains the docs for the HTTP proxy server which I (Vishnu Ks, IIT201
 ##Installing
 
 * Extract the compressed file
-* open the folder in terminal
+* If you are testing the proxy server in IIIT-A network then change the value of `CONNECT_TO_IRONPORT` defined in line 15 proxy.cpp to `true`. 
+* If you are using mobile data then there is no need of chaning the value of `CONNECT_TO_IRONPORT`. Leave it as `false`. 
 * run `make` in terminal for compiling and building the binary
 * run `./proxy Port` to start the proxy server in the desired PORT
+* The python tests would only work under mobile data.  
 
 
 ##Design 
