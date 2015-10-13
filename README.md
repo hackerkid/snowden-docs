@@ -9,6 +9,20 @@ over at github.com/hackerkid/snowdn
 * open the folder in terminal
 * run `make` in terminal for compiling and building the binary
 * run `proxy Port` to start the proxy server in the desired PORT
+* 
+
+##Design 
+
+###Idea
+
+The proxy server would act as both a client and server. 
+![image](https://www.drupal.org/files/project-images/proxy.png)
+
+* Each client would connect to the proxy server which in turn fetches the desired web page back to the client.
+* To support multiple clients I used thread programming (pthread library). 
+* The request made to the proxy server by the client can be validated with the help of `ParsedRequest_parse` function in `proxy_parse.h`. 
+* HTTPS is not supported becuase the data send between the client and server is heavily encrypted. No sense can be made of data and it would be useless to cache anything in the proxy server.
+
 
 ##Testing
 Go to the `Edit` menu in Firefox.
