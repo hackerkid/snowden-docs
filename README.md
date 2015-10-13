@@ -9,11 +9,9 @@ over at github.com/hackerkid/snowdn
 * open the folder in terminal
 * run `make` in terminal for compiling and building the binary
 * run `proxy Port` to start the proxy server in the desired PORT
-* 
+
 
 ##Design 
-
-###Idea
 
 The proxy server would act as both a client and server. 
 ![image](https://www.drupal.org/files/project-images/proxy.png)
@@ -34,5 +32,7 @@ your proxy program is running.
 * Save your changes by selecting `OK` in the connection tab and then select `Close`
 in the preferences tab.
 
-
+##Created By
+Vishnu Ks
+IIT2013075
 
