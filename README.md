@@ -7,7 +7,7 @@ This repo contains the docs for the HTTP proxy server which I (Vishnu Ks, IIT201
 * Extract the compressed file
 * open the folder in terminal
 * run `make` in terminal for compiling and building the binary
-* run `proxy Port` to start the proxy server in the desired PORT
+* run `./proxy Port` to start the proxy server in the desired PORT
 
 
 ##Design 
